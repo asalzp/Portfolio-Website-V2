@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+html, body {
+  height: 100%;
+  background-color: #e4e2e2;
+}
+
+.section1-container {
+  position: relative;
+  padding: 0;
+  min-height: 100vh; /* Ensure Section1 covers the entire viewport */
+  box-sizing: border-box;
+
+  }
+
+.introduction{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 20rem;
+  left: 20rem;
+  /* background-color: rgb(234, 0, 255); */
+}
+
+.my_name{
+  font-size: 60px;
+  font-family: cursive;
+  color: rgb(64, 64, 64);
+  margin-bottom: 2rem;
+}
+
+.quote{
+  margin-top: 2rem;
+}
+.quote p{
+  font-size: 15px;
+  font-style: italic;
+}
+
+.quote_author{
+  font-size: 15px;
+  margin-left: 31rem;
+}
+
+.quote_author p{
+  font-size: 15px;
+  font-style: italic;
+}
+  
+p{
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-family:monospace;
+}
+
+.big_hexagon{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  font-size: 900px;
+  margin-top: -13rem;
+  margin-left: 68rem;
+  transform: rotate(70deg);
+}
+
+.my_pic{
+  position: absolute;
+  margin-left: 60rem;
+  margin-top: 10rem;
+}
+
+.my_pic img{
+  border-radius: 3px;
+  width: 550px;
+}
+
+.images{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: -4rem;
+}
+
+.computers_image img{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: 63rem;
+  top: 2rem;
+  width: 220px;
+  border: 2px solid rgb(58, 18, 133); /* Set the border to 2 pixels wide and solid black */
+  border-radius: 30px; /* Optionally, add border-radius for rounded corners */
+}
+
+
+
+.globe_image img{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: 84rem;
+  top: 18rem;
+  width: 300px;
+  border: 2px solid rgb(58, 18, 133); /* Set the border to 2 pixels wide and solid black */
+  border-radius: 30px; /* Optionally, add border-radius for rounded corners */
+}
+
+
+.robot_hand_image img{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: 86rem;
+  top: 32rem;
+  width: 250px;
+  border: 2px solid rgb(58, 18, 133); /* Set the border to 2 pixels wide and solid black */
+  border-radius: 30px; /* Optionally, add border-radius for rounded corners */
+
+}
+
+.metaverse img{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: 80rem;
+  top: 4rem;
+  width: 300px;
+  border: 2px solid rgb(58, 18, 133); /* Set the border to 2 pixels wide and solid black */
+  border-radius: 30px; /* Optionally, add border-radius for rounded corners */
+}
+
+.ai_robot img{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: 63rem;
+  top: 41rem;
+  width: 350px;
+  border: 2px solid rgb(58, 18, 133); /* Set the border to 2 pixels wide and solid black */
+  border-radius: 30px; /* Optionally, add border-radius for rounded corners */
+}
+
+.girl_robot img{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: 67rem;
+  top: 17rem;
+  width: 250px;
+  border: 2px solid rgb(58, 18, 133); /* Set the border to 2 pixels wide and solid black */
+  border-radius: 30px; /* Optionally, add border-radius for rounded corners */
+}
+
+
+.triple_hexagon_1{
+    position: absolute; /* Position absolutely within the container */
+    left: 0; /* Align to the left */
+    top: 30%; /* Align vertically to the middle */
+    transform: translateY(-100%); /* Center vertically */
+    width: 100px; /* Adjust the width as needed */
+    
+}
+
+.vertical-line {
+  border-left: 5px solid rgb(0, 0, 0); /* Adjust color and thickness as needed */
+  height: 60px; /* Adjust height as needed */
+  position: absolute; /* Position absolutely within the container */
+  left: 3.7rem; /* Align to the left */
+  top: -2rem;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(61, 37, 4);
+}
+
+.triple_hexagon_2{
+  position: absolute; /* Position absolutely within the container */
+    left: 0; /* Align to the left */
+    top: 61%; /* Align vertically to the middle */
+    transform: translateY(-100%); /* Center vertically */
+    width: 100px; /* Adjust the width as needed */
+}
+
+.vertical-line_2 {
+  border-left: 5px solid rgb(0, 0, 0); /* Adjust color and thickness as needed */
+  height: 52px; /* Adjust height as needed */
+  position: absolute; /* Position absolutely within the container */
+  left: 3.7rem; /* Align to the left */
+  bottom: 15rem;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(61, 37, 4);
+}
+
+.triple_hexagon_3{
+  position: absolute; /* Position absolutely within the container */
+  left: 5%; /* Align to the left */
+  top: 76%; /* Align vertically to the middle */
+  transform: translateY(-100%); /* Center vertically */
+  width: 100px; /* Adjust the width as needed */
+}
+
+.double_hexagon_1{
+  position: absolute; /* Position absolutely within the container */
+  left: 2.58%; /* Align to the left */
+  top: 76%; /* Align vertically to the middle */
+  transform: translateY(-100%); /* Center vertically */
+  width: 100px; /* Adjust the width as needed */
+}
+
+.double_hexagon_2{
+  position: absolute; /* Position absolutely within the container */
+  left: 4%; /* Align to the left */
+  top: 70%; /* Align vertically to the middle */
+  transform: translateY(-100%); /* Center vertically */
+  width: 100px; /* Adjust the width as needed */
+  transform: scaleX(-1);
+
+}
+
+.vertical-line_3{
+  border-left: 5px solid rgb(0, 0, 0); /* Adjust color and thickness as needed */
+  height: 85px; /* Adjust height as needed */
+  position: absolute; /* Position absolutely within the container */
+  left: 1rem; /* Align to the left */
+  top: 12.2rem;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(61, 37, 4);
+}
+
+.double_hexagon_3{
+  position: absolute; /* Position absolutely within the container */
+  left: 12%; /* Align to the left */
+  top: 70.5%; /* Align vertically to the middle */
+  transform: translateY(-100%); /* Center vertically */
+  width: 100px; /* Adjust the width as needed */
+  transform: scaleX(-1);
+}
+
+.double_hexagon_4{
+  position: absolute; /* Position absolutely within the container */
+  left: 17%; /* Align to the left */
+  top: 70.5%; /* Align vertically to the middle */
+  transform: translateY(-100%); /* Center vertically */
+  width: 100px; /* Adjust the width as needed */
+  transform: scaleX(-1);
+}
+
+
+
+
+
