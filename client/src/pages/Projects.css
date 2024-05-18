@@ -4,15 +4,105 @@
     box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
   }
   
-  html, body {
+html, body {
     height: 100%;
     background-color: #e4e2e2;
   }
   
-  .section1-container {
+.section1-container {
     position: relative;
     padding: 0;
     min-height: 100vh; /* Ensure Section1 covers the entire viewport */
     box-sizing: border-box;
   
-    }
+}
+
+.spacer{
+    aspect-ratio: 900/600;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.layer1{
+    background-image: url('../../public/images/svg_bg2.svg');
+} 
+
+
+
+.title{
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 15rem;
+
+}
+
+h1{
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+
+.left-blob{
+    position: absolute;
+    margin-top: 20rem;
+    margin-left: -10rem;
+}
+
+.right-blob{
+    position: absolute;
+    margin-left: 55rem;
+    margin-top: 5rem;
+}
+
+.blob_itself{
+    cursor: pointer;
+
+}
+    
+.mygame-txt{
+    margin-top: 10rem;
+}
+
+.controller_img{
+    position: absolute;
+    margin-top: 20rem;
+    margin-left: 5rem;
+}
+.controller_img img, .unity_img img, .csharp_img img, .calendar_img img, .django_img img, .openai_img img{
+    width: 100px;
+    border-radius: 100px;
+}
+
+.unity_img{
+    position: absolute;
+    margin-top: 50rem;
+    margin-left: 3rem;
+}
+
+.csharp_img{
+    position: absolute;
+    margin-top: 50rem;
+    margin-left: 35rem;
+}
+
+.calendar_img{
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 60rem;
+}
+
+.django_img{
+    position: absolute;
+    margin-left: 93rem;
+    margin-top: 5rem;
+}
+
+.openai_img{
+    position: absolute;
+    margin-left: 85rem;
+    margin-top: 43rem;
+}
+

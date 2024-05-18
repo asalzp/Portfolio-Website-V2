@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="visual" viewBox="0 0 900 600" width="900" height="600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <defs/>
+  <g transform="translate(414.8630586732182 307.1500272025332)">
+    <path d="M190.9 -168.4C240.4 -141.4 268.7 -70.7 258.2 -10.5C247.7 49.7 198.5 99.5 149 130.5C99.5 161.5 49.7 173.7 7.2 166.5C-35.4 159.4 -70.7 132.7 -108.4 101.7C-146 70.7 -186 35.4 -189.8 -3.8C-193.6 -42.9 -161.1 -85.8 -123.5 -112.8C-85.8 -139.8 -42.9 -150.9 13.9 -164.8C70.7 -178.7 141.4 -195.4 190.9 -168.4" fill="#818080"/>
+  </g>
+  <text style="font-family: 'Lucida Sans Typewriter'; font-size: 28px; white-space: pre;" x="386.865" y="295.313">My Game</text>
+</svg>
