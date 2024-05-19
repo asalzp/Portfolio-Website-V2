@@ -24,8 +24,8 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: 3rem;
-    left: 15rem;
+    top: 8rem;
+    left: 10rem;
     /* background-color: rgb(234, 0, 255); */
     }
 
@@ -41,18 +41,23 @@ html, body {
 
 .skills  h1{
     color: rgb(0, 0, 0);
-    font-size: 40px;
+    font-size: 35px;
     font-family:monospace;
     position: absolute;
     top: 1rem;
+    margin-left: 5rem;
+
 }
 
 .likes h1{
     color: rgb(0, 0, 0);
-    font-size: 40px;
+    font-size: 35px;
     font-family: monospace;
-    top: 1rem;
-    position: relative;
+    top: 6rem;
+    margin-left: 4rem;
+    position: absolute;
+
+
 }
 
 ul{
@@ -71,7 +76,7 @@ ul{
     margin-top: .5rem;
     font-size: 20px;
     font-family: monospace;
-    padding: 20px;
+    padding: 10px;
 }
 
 .skills-items li button{
@@ -82,7 +87,7 @@ ul{
 
 .likes-items ul{
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 10rem;
 
 }
 
@@ -90,7 +95,7 @@ ul{
     margin-top: .5rem;
     font-size: 20px;
     font-family: monospace;
-    padding: 20px;
+    padding: 10px;
     
 }
 
@@ -102,13 +107,14 @@ ul{
 
 .skills_images{
     position: absolute;
-    margin-left: 70rem;
-    margin-top: -2rem;
+    margin-left: 65rem;
+    margin-top: 4rem;
 }
 
 .likes_images{
     position: absolute;
-    margin-left: 25rem;
+    margin-top: 6rem;
+    margin-left: 22rem;
 }
 
 .python_img{
@@ -116,13 +122,13 @@ ul{
     margin-top: 5rem;
 }
 .python_img img, .java_img img, .js_img img, .teamwork_img img{
-    width: 200px;
+    width: 150px;
     border-radius: 100px;
 }
 
 .java_img{
     position: absolute;
-    margin-top: 18rem;
+    margin-top: 16rem;
 }
 
 /* .js_img{
@@ -131,7 +137,7 @@ ul{
 } */
 
 .multitasking_img img {
-    width: 220px;
+    width: 200px;
     border-radius: 200px;
 }
 
@@ -143,40 +149,41 @@ ul{
 
 .teamwork_img{
     position: absolute;
-    margin-left: 15rem;
-    margin-top: 17rem;
+    margin-left: 13rem;
+    margin-top: 15rem;
     
 }
 
 .guitar_img img{
-    width: 200px;
+    width: 150px;
     border-radius: 100px;
 }
 
 .guitar_img{
     position: absolute;
     margin-top: 32rem;
-    margin-left: 22rem;
+    margin-left: 27rem;
 }
 .books_img img{
-    width: 300px;
+    width: 200px;
     border-radius: 250px;
 }
 
 .books_img{
     position: absolute;
     margin-top: 30rem;
+    margin-left: 10rem;
 }
 
 .baking_img img{
-    width: 200px;
+    width: 150px;
     border-radius: 100px;
 }
 
 .baking_img{
     position: absolute;
-    margin-top: 42rem;
-    margin-left: -15rem;
+    margin-top: 40rem;
+    margin-left: -5rem;
 }
 .btn {
     font-family: monospace;

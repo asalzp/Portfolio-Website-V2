@@ -25,19 +25,17 @@ function Entertainment() {
         </p>
       </div>
       <div className="images neon-border">
-        
-        <div className="movies_img" onClick={openMovies}>
-        <img src="/images/movies.jpg" alt="movies"></img>
-        <div className="text-movies">
-            Top 10 Movies Everyone Should Watch
-        </div>
-        </div>
-        
 
+        <div className="movies_img neon-border" onClick={openMovies}>
+          <img src="/images/movies.jpg" alt="movies"></img>
+          <div className="text-movies">Top 10 Movies Everyone Should Watch</div>
+        </div>
+      
         <div className="music_img neon-border" onClick={openSpotify}>
           <img src="/images/music.jpg" alt="music"></img>
           <div class="text-music">Spotify Playlist for House Music Lovers</div>
         </div>
+
       </div>
     </div>
   );
