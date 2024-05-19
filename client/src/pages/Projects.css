@@ -9,7 +9,7 @@ html, body {
     background-color: #e4e2e2;
   }
   
-.section1-container {
+.section-container {
     position: relative;
     padding: 0;
     min-height: 100vh; /* Ensure Section1 covers the entire viewport */

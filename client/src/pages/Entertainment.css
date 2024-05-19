@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+  }
+  
+html, body {
+    height: 100%;
+    background-color: #e4e2e2;
+}
+  
+.section-container {
+    position: relative;
+    padding: 0;
+    min-height: 100vh; /* Ensure Section1 covers the entire viewport */
+    box-sizing: border-box;
+  
+}
+
+.page_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.page_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+p{
+    font-size: 20px;
+}
+
+.images {
+    position: absolute;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    margin-left: 15rem;
+    margin-top: 5rem;
+}
+
+.music_img{
+    position: absolute;
+    margin-left: 80rem;
+    background-color: black;
+}
+
+.music_img img, .movies_img img{
+    width: 500px;
+    border-radius: 20px;
+    transition: opacity 0.3s ease;
+}
+
+.neon-border {
+    animation: flicker 1s infinite alternate; /* Flickering animation */
+    border: 2px solid #fff;
+    border-radius: 22px; /* Adjust border radius as needed */
+    box-shadow: 0 0 20px #fff; /* Neon glow effect */
+}
+
+@keyframes flicker {
+    0% {
+        border-color: #fff;
+        box-shadow: 0 0 20px #fff, 0 0 40px #fff;
+    }
+    50% {
+        border-color: #000;
+        box-shadow: 0 0 20px #000;
+    }
+    100% {
+        border-color: #fff;
+        box-shadow: 0 0 20px #fff;
+    }
+    
+    
+      
+}
+
+.neon-border:hover {
+    animation: none; /* Stops the animation on hover */
+    cursor: pointer;
+}
+
+.text-movies, .text-music{
+    position: absolute;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    top: 12%;
+    left: 10%;
+}
+
+.text-music{
+    left: 8%;
+}
+
+
+

@@ -2,6 +2,7 @@ import React from 'react';
 import Intro from './Intro';
 import About from './About';
 import Projects from './Projects';
+import Entertainment from './Entertainment'
 import FullPage, {FullPageSections, FullpageSection, FullpageNavigation} from '@ap.cx/react-fullpage'
 
 
@@ -22,6 +23,10 @@ function Home() {
 
                 <FullpageSection>
                     <Projects />
+                </FullpageSection>
+
+                <FullpageSection>
+                    <Entertainment />
                 </FullpageSection>
                     
             </FullPageSections>
