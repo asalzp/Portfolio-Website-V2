@@ -18,24 +18,7 @@ function About() {
 
   return (
     <div className="section-container">
-      {/* <div className='python3D'>
-        <PythonCanvas />
-      </div>
-      <div className='teamwork3D'>
-        <TeamworkCanvas />
-      </div>
-      <div className='guitar3D'>
-        <GuitarCanvas />
-      </div>
-      <div className='computer3D'>
-        <ComputerCanvas />
-      </div>
-      <div className='donut3D'>
-        <DonutCanvas />
-      </div>
-      <div className='books3D'>
-        <BooksCanvas />
-      </div> */}
+      
       <div className='skills'>
         {/* <img src='/images/brush_stroke.png' alt="brush_troke"></img> */}
         <h1>I am skilled in</h1>
@@ -61,19 +44,17 @@ function About() {
         </div>
       </div>
       <div className='skills_images'>
-        <div className={`python_img ${hoveredButton === 'python' ? 'heartbeat' : ''}`}>
+        <div className={`python_img ${hoveredButton === 'python' ? 'heartbeat' : 'hidden'}`}>
           <img src='/images/python.jpg' alt='python'></img>
         </div>
-        <div className={`java_img ${hoveredButton === 'python' ? 'heartbeat' : ''}`}>
+        <div className={`java_img ${hoveredButton === 'python' ? 'heartbeat' : 'hidden'}`}>
           <img src='/images/java.jpg' alt='java'></img>
         </div>
-        {/* <div className='js_img'>
-          <img src='/images/js.jpg' alt='js'></img>
-        </div> */}
-        <div className={`multitasking_img ${hoveredButton === 'multitasking' ? 'heartbeat' : ''}`}>
+        
+        <div className={`multitasking_img ${hoveredButton === 'multitasking' ? 'heartbeat' : 'hidden'}`}>
           <img src='/images/multitasking.jpg' alt='multitasking'></img>
         </div>
-        <div className={`teamwork_img ${hoveredButton === 'teamwork' ? 'heartbeat' : ''}`}>
+        <div className={`teamwork_img ${hoveredButton === 'teamwork' ? 'heartbeat' : 'hidden'}`}>
           <img src='/images/teamwork.jpg' alt='teamwork'></img>
         </div>
 
@@ -104,13 +85,13 @@ function About() {
       </div>
 
       <div className='likes_images'>
-        <div className={`guitar_img ${hoveredButton === 'guitar' ? 'heartbeat' : ''}`}>
+        <div className={`guitar_img ${hoveredButton === 'guitar' ? 'heartbeat' : 'hidden'}`}>
           <img src='/images/guitar.jpg' alt='guitar'></img>
         </div>
-        <div className={`books_img ${hoveredButton === 'books' ? 'heartbeat' : ''}`}>
+        <div className={`books_img ${hoveredButton === 'books' ? 'heartbeat' : 'hidden'}`}>
           <img src='/images/books.jpg' alt='books'></img>
         </div>
-        <div className={`baking_img ${hoveredButton === 'baking' ? 'heartbeat' : ''}`}>
+        <div className={`baking_img ${hoveredButton === 'baking' ? 'heartbeat' : 'hidden'}`}>
           <img src='/images/baking.jpg' alt='baking'></img>
         </div>
 

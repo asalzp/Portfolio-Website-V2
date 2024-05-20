@@ -66,7 +66,7 @@ h1{
     margin-top: 10rem;
 }
 
-.controller_img{
+/* .controller_img{
     position: absolute;
     margin-top: 20rem;
     margin-left: 5rem;
@@ -104,5 +104,44 @@ h1{
     position: absolute;
     margin-left: 85rem;
     margin-top: 43rem;
+} */
+
+@media screen and (max-width: 768px){
+    .title{
+        margin-left: 8rem;
+    }
+    .layer1{
+        background-image: none;
+    } 
+
+    .left-blob{
+        margin-left: -5rem;
+        margin-top: 5rem;
+    }
+
+    .right-blob{
+        margin-left: -1rem;
+        margin-top: 25rem;
+    }
+
+    .blob_itself {
+        fill: #1e1d1d; /* Default color */
+        transform: rotate(90deg);
+        
+      }
+      
+
+      text {
+        fill: #e4e2e2; /* Change color of the text */
+      }
+      
+      tspan {
+        fill: #e4e2e2; /* Change color of the text */
+      }
+
+    svg{
+        width: 500px;
+    }
+
 }
 

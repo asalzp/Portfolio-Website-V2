@@ -24,8 +24,8 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: 8rem;
-    left: 10rem;
+    top: 20rem;
+    left: 8rem;
     /* background-color: rgb(234, 0, 255); */
     }
 
@@ -35,8 +35,8 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: 30rem;
-    left: 65rem;
+    top: 15rem;
+    left: 63rem;
 }
 
 .skills  h1{
@@ -107,19 +107,20 @@ ul{
 
 .skills_images{
     position: absolute;
-    margin-left: 65rem;
+    margin-left: 63rem;
     margin-top: 4rem;
 }
 
 .likes_images{
     position: absolute;
     margin-top: 6rem;
-    margin-left: 22rem;
+    margin-left: 20rem;
 }
 
 .python_img{
     position: absolute;
-    margin-top: 5rem;
+    margin-top: 20rem;
+    margin-left: -15rem;
 }
 .python_img img, .java_img img, .js_img img, .teamwork_img img{
     width: 150px;
@@ -128,7 +129,8 @@ ul{
 
 .java_img{
     position: absolute;
-    margin-top: 16rem;
+    margin-top: 30rem;
+    margin-left: -15rem;
 }
 
 /* .js_img{
@@ -143,14 +145,15 @@ ul{
 
 .multitasking_img{
     position: absolute;
-    margin-top: 7rem;
-    margin-left: -16rem;
+    margin-left: -17rem;
+    margin-top: 23rem;
+
 }
 
 .teamwork_img{
     position: absolute;
-    margin-left: 13rem;
-    margin-top: 15rem;
+    margin-left: -16rem;
+    margin-top: 23rem;
     
 }
 
@@ -161,7 +164,7 @@ ul{
 
 .guitar_img{
     position: absolute;
-    margin-top: 32rem;
+    margin-top: 21rem;
     margin-left: 27rem;
 }
 .books_img img{
@@ -171,8 +174,8 @@ ul{
 
 .books_img{
     position: absolute;
-    margin-top: 30rem;
-    margin-left: 10rem;
+    margin-top: 18rem;
+    margin-left: 25rem;
 }
 
 .baking_img img{
@@ -182,8 +185,8 @@ ul{
 
 .baking_img{
     position: absolute;
-    margin-top: 40rem;
-    margin-left: -5rem;
+    margin-top: 21rem;
+    margin-left: 27rem;
 }
 .btn {
     font-family: monospace;
@@ -234,4 +237,103 @@ ul{
   
   .heartbeat {
     animation: heartbeat 0.7s infinite;
+  }
+
+  .hidden {
+    display: none; /* Ensure hidden elements don't take up space */
+  }
+
+  @media screen and (max-width: 768px){
+    .skills{
+        width: 100%;
+        margin-left: -10rem;
+        margin-top: -15rem;
+    }
+
+    .likes{
+        width: 100%;
+        margin-left: -65rem;
+        margin-top: 18rem;
+    }
+
+    .skills h1, .likes h1{
+        font-size: 25px;
+    }
+
+    .skills-items li button{
+        width: 80%;
+        height: 70px;
+       
+    }
+
+    .skills li, .likes li{
+        margin-top: -.5rem;
+    }
+
+    .skills-items{
+        margin-top: -1rem;
+    }
+
+    .likes h1{
+        margin-top: 1rem;
+    }
+
+    .python_img{
+        display: flex;
+        flex-direction: column;
+        margin-left: -49rem;
+        margin-top: 24rem;
+
+    }
+
+    .java_img{
+        display: flex;
+        flex-direction: column;
+        margin-left: -59rem;
+        margin-top: 24rem;
+    }
+
+    .multitasking_img{
+        display: flex;
+        flex-direction: column;
+        margin-left: -56rem;
+        margin-top: 23rem;
+    }
+
+    .teamwork_img{
+        margin-left: -54rem;
+    }
+    .guitar_img, .baking_img{
+        display: flex;
+        flex-direction: column;
+        margin-left: -11rem;
+        margin-top: 21rem;
+    }
+    
+    .books_img{
+        display: flex;
+        flex-direction: column;
+        margin-left: -10rem;
+        margin-top: 20rem;
+    }
+
+
+    .teamwork_img, .multitasking_img {
+        width: 100px;
+    }
+
+    .python_img img, .java_img img{
+        width: 130px;
+    }
+    .guitar_img img, .baking_img img{
+        width: 150px;
+    }
+    .books_img img{
+        width: 130px;
+    }
+
+    .hidden{
+        display: none;
+    }
+
   }

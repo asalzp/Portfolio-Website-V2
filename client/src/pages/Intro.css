@@ -27,6 +27,8 @@ html, body {
   /* background-color: rgb(234, 0, 255); */
 }
 
+
+
 .my_name{
   font-size: 60px;
   font-family: cursive;
@@ -97,7 +99,7 @@ p{
   left: 3.7rem; /* Align to the left */
   top: -2rem;
   color: rgb(0, 0, 0);
-  box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(61, 37, 4);
+  box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(47, 46, 46);
 }
 
 .triple_hexagon_2{
@@ -115,7 +117,7 @@ p{
   left: 3.7rem; /* Align to the left */
   bottom: 15rem;
   color: rgb(0, 0, 0);
-  box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(61, 37, 4);
+  box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(47, 46, 46);
 }
 
 .triple_hexagon_3{
@@ -151,7 +153,7 @@ p{
   left: 1rem; /* Align to the left */
   top: 12.2rem;
   color: rgb(0, 0, 0);
-  box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(61, 37, 4);
+  box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(47, 46, 46);
 }
 
 .double_hexagon_3{
@@ -173,6 +175,64 @@ p{
 }
 
 
+@media screen and (max-width: 768px){
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    margin-left: -15rem;
+    margin-top: 12rem;
+  }
+  
+  .my_pic{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-top: 8.5rem;
+  }
 
+
+  .big_hexagon{
+    display: flex;
+    flex-direction: column;
+    margin-top: -7rem;
+    margin-left: 5.5rem;
+    width: 50%;
+    font-size: 400px;
+  }
+
+  .my_pic img{
+    width: 300px;
+  }
+
+  .my_name{
+    text-align: center;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -13rem;
+    margin-top: 3rem;
+  }
+  
+  .introduction p{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: -4rem;
+    text-align: center;
+  }
+  /* Adjust other elements as needed */
+
+  .triple_hexagon_1,
+  .triple_hexagon_2,
+  .triple_hexagon_3,
+  .double_hexagon_1,
+  .double_hexagon_2,
+  .double_hexagon_3,
+  .double_hexagon_4 {
+    display: none; /* Hide the hexagon patterns on smaller screens */
+  }
+
+
+}
 
 

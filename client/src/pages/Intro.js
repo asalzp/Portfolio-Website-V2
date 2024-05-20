@@ -19,35 +19,6 @@ function Intro() {
           <p>Mr. Robot</p>
         </div>
       </div>
-      
-
-      {/* <div className='images'>
-        <div className='computers_image'>
-          <img src='/images/computers.jpg' alt='computers_image'></img>
-        </div>
-
-        <div className='robot_hand_image'>
-          <img src='/images/robot_hand.jpg' alt='robot_hand_image'></img>
-        </div>
-
-        <div className='globe_image'>
-          <img src='/images/globe.jpg' alt='globe_image'></img>
-        </div>
-
-        <div className='metaverse'>
-          <img src='/images/metaverse.jpg' alt='metaverse'></img>
-        </div>
-
-        <div className='ai_robot'>
-          <img src='/images/ai_robot.jpg' alt='ai_robot'></img>
-        </div>
-
-        <div className='girl_robot'>
-          <img src='/images/girl_robot.jpg' alt='girl_robot'></img>
-        </div>
-      </div> */}
-
-      
 
       <div className='big_hexagon'>
         <i class="bi bi-hexagon-fill"></i>

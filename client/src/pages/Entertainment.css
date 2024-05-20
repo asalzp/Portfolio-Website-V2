@@ -47,7 +47,6 @@ p{
 .music_img{
     position: absolute;
     margin-left: 80rem;
-    background-color: black;
 }
 
 .music_img img, .movies_img img{
@@ -58,9 +57,7 @@ p{
 
 .neon-border {
     animation: flicker 1s infinite alternate; /* Flickering animation */
-    border: 2px solid #fff;
     border-radius: 22px; /* Adjust border radius as needed */
-    box-shadow: 0 0 20px #fff; /* Neon glow effect */
 }
 
 @keyframes flicker {
@@ -100,4 +97,58 @@ p{
 }
 
 
+@media screen and (max-width: 768px){
+    .page_title{
+        text-align: center;
+    }
 
+    .page_info{
+        text-align: center;
+        width: 100%;
+    }
+
+    p{
+        width: 80%;
+    }
+
+    .images{
+        display: flex;
+        flex-direction: column;
+        width: 50px;
+    }
+
+    .music_img img, .movies_img img{
+        width: 250px;
+    }
+
+    .movies_img{
+        margin-left: -8rem;
+        margin-top: -3rem;
+    }
+
+    .music_img{
+        margin-left: -8rem;
+        margin-top: 32rem;
+    }
+
+    .text-movies{
+        font-size: 20px;
+        text-align: center;
+        margin-left: -9rem;
+        margin-top: -4rem;
+
+    }
+
+    .text-movies p{
+        color: white;
+        width: 110%;
+        font-size: 18px;
+    }
+
+    .text-music{
+        text-align: center;
+        font-size: 18px;
+        margin-left: -0.5rem;
+        margin-top: -0.5rem;
+    }
+}
